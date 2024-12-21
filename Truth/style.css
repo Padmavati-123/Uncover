@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+
+#invisible-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;   /* Button width */
+    height: 50px;  /* Button height */
+    background-color: transparent; /* Makes the button invisible */
+    border: none;  /* Removes border */
+    cursor: pointer; /* Shows pointer on hover */
+    opacity: 0; /* Fully invisible */
+}
+
+#invisible-button:focus {
+    outline: none; /* Removes focus outline */
+}
+
+.invisible-button1 {
+    position: fixed;
+    width: 50px;   /* Button width */
+    height: 50px;  /* Button height */
+    background-color: transparent; /* Makes the button invisible */
+    border: none;  /* Removes border */
+    cursor: pointer; /* Shows pointer on hover */
+    opacity: 0; /* Fully invisible */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.invisible-button1:hover {
+    opacity: 1; /* Slight visibility on hover */
+}
+
+#button1 {
+    bottom: 46px;
+    right: 75px;
+}
+
+#button2 {
+    top: 70px;
+    right: 10px;
+}
+
+#button3 {
+    top: 130px;
+    left: 10px;
+}
+
+#button4 {
+    bottom: 60px;
+    left: 100px;
+}
+
+#button5 {
+    bottom: 200px;
+    left: 200px;
+}
+
+.invisible-button1:focus {
+    outline: none;
+}
+
+
